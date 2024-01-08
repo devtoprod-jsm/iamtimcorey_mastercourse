@@ -1,0 +1,8 @@
+Project:
+A project is where your code lives. A project encapsulates one type of code and  of application.
+A project could be self contained, everything it needs to run that application.
+
+Solution:
+It is like a bucket that holds projects together. We put together related projects in a solution for easier access. 
+
+Pascal casing is the industry standard for naming projects and solutions. No spaces are allowed in the names.
