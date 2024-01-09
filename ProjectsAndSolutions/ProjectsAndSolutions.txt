@@ -1,8 +1,23 @@
 Project:
-A project is where your code lives. A project encapsulates one type of code and  of application.
+A project is where your code lives. A project encapsulates one type of code and of application.
 A project could be self contained, everything it needs to run that application.
 
 Solution:
-It is like a bucket that holds projects together. We put together related projects in a solution for easier access. 
+It is like a bucket that holds projects together. We put together related projects in a solution for easier access.
+Extra projects included are generally library code to support the application in primary project.
+Projects in a solution are not necessarily related. Projects are boundary for a particular type of code or application.
+
+Solution is a bucket and the project is where the code lives!!!
 
 Pascal casing is the industry standard for naming projects and solutions. No spaces are allowed in the names.
+
+Keywords:
+using: Is a way to shortcut reference or FQN for a library.
+namespace: A namespace is a way of naming or grouping various code parts together.
+By default the root namespace takes the project name.
+Create folders and name the namespace accordingly (projectname.foldername) for code that logically goes together.
+scope: A curly brace indicates scope in C#.
+Class:
+Generally we start in program class, main method (where our application starts to execute).
+We genrally name files after the classes that are inside them. Generally we put one class in onefile.(recommended)
+Method: Lives inside of classes. Main(keyword that indicates) method is used to launch your application.
